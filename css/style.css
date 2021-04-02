@@ -36,18 +36,33 @@ a{
     background-position: center;
 }
 
-.navbar__list{
+.navbar{
     width: 80%;
     margin: 0 auto;
     padding: 3.5rem 0;
     display: flex;
     align-items: center;
-    justify-content: ;
+    justify-content: space-between;
 }
 
 .navbar__logo{
     width: 100px;
+    cursor: pointer;
 }
 .logo{
     width: 100%;
+}
+.navbar__item{
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+.navbar__link{
+    color: white;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+.nabarv__item:hover{
+    width: 3px;
+    position: absolute;
+    
 }
