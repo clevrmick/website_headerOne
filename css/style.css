@@ -65,12 +65,13 @@ a{
 .navbar__item::after{
     content: '';
     position: absolute;
-    /* left: 0;4r    */
-    /* bottom: 0; */
-    width: 100%;
-    height: 10px;
+    left: 0;  
+    bottom: -10px;
+    width: 0;
+    height: 3px;
     background: #009688;
-
-
-    
+    transition: 0.5s;
+}
+.navbar__item:hover::after{
+    width: 100%;
 }
